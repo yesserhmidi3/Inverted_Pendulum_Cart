@@ -78,7 +78,6 @@ The controller is designed around the **linearized model** at the upright positi
 ## 📂 Repository Structure
 * **`/cad`**: SolidWorks assembly and part files for the 4WD chassis and pendulum holder.
 * **`/code`**: ESP32 source code, PID implementation, and MPU6050 calibration logic.
-* **`/docs`**: Mathematical derivation (Lagrangian) and technical report.
 
 ---
 
