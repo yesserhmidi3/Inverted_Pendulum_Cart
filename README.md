@@ -31,7 +31,7 @@ The controller is designed around the **linearized model** at the upright positi
 
 ---
 
-## 📐 System Architecture
+## System Architecture
 
 
 ```text
@@ -53,7 +53,7 @@ The controller is designed around the **linearized model** at the upright positi
 ---
 
 
-## 📊 System Parameters
+## System Parameters
 
 | Parameter | Value |
 | :--- | :--- |
@@ -66,7 +66,7 @@ The controller is designed around the **linearized model** at the upright positi
 
 ---
 
-## 🛠 Software Stack
+## Software Stack
 
 | Layer | Tool / Framework |
 |---|---|
@@ -77,13 +77,13 @@ The controller is designed around the **linearized model** at the upright positi
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 * **`/cad`**: SolidWorks assembly and part files for the 4WD chassis and pendulum holder.
 * **`/code`**: ESP32 source code, PID implementation, and MPU6050 calibration logic.
 
 ---
 
-## 🔧 Setup & Usage
+## Setup & Usage
 
 1. **Hardware:**
    * Assemble the 4WD chassis using the provided SolidWorks designs.
@@ -96,7 +96,7 @@ The controller is designed around the **linearized model** at the upright positi
 
 ---
 
-## 📝 Results
+## Results
 
 - Achieved stable upright balance using 4-wheel drive movement.
 - Successfully accounted for the increased inertia provided by the additional servo weights.
