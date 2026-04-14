@@ -34,6 +34,7 @@ The controller is designed around the **linearized model** at the upright positi
 ## 📐 System Architecture
 
 
+```text
 ┌────────────────┐      PWM / Direction      ┌────────────────┐
 │     ESP32      │ ────────────────────────> │  L298N Driver  │
 │  (PID Control) │                           │ (Motor Control)│
@@ -47,6 +48,7 @@ The controller is designed around the **linearized model** at the upright positi
         └───────────────────┴─────────────── │ 4WD DC Chassis │
                                              │ (Yellow Motors)│
                                              └────────────────┘
+```
                                              
 ---
 
@@ -101,4 +103,4 @@ The controller is designed around the **linearized model** at the upright positi
 - Handled real-world disturbances and recovery maneuvers.
 
 ---
-*This project was completed for academic purposes focusing on Automation, Control Theory, and Robotics.*
+*This project was completed for academic purposes focusing on Non linear systems, Control Theory, and Robotics.*
